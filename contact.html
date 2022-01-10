@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Ethan Marchand</title>
+  </head>
+  <body>
+    <h1>Drop me a line!</h1>
+    <p>Phone: 780-868-0552</p>
+    <p>email: ethan@redtri.ca</p>
+  <hr>
+    <form class="" action="mailto:ethan@ethanmarchand.com" method="post" enctype="text/plain">
+      <!--Name-->
+      <label for="name">Name: </label>
+      <input type="text" name="name" value="" placeholder="Full Name"><br>
+      <!--Phone Number-->
+      <label for="phone">Phone : </label>
+      <input type="tel" name="phone" value="" placeholder="Phone Number"><br>
+      <!--Email-->
+      <label for="email">Email: </label>
+      <input type="email" name="email" value="" placeholder="email"><br>
+      <!--Gender-->
+      <span>Gender: </span><input type="radio" name="gender" value="male">
+      <label for="gender">Male</label>
+      <input type="radio" name="gender" value="female">
+      <label for="gender">Female</label>
+      <input type="radio" name="gender" value="other">
+      <label for="gender">Other</label><br>
+      <!--City-->
+      <label for="city">City:</label>
+      <input list="city" name="city" value="">
+      <datalist id="city">
+        <option value="Edmonton">Edmonton</option>
+        <option value="Calgary">Calgary</option>
+        <option value="Vancouver">Vancouver</option>
+        <option value="Toronto">Toronto</option>
+      </datalist><br>
+      <!--Date-->
+      <label for="date">Pick a Date!</label>
+      <input type="date" name="date" value=""><br>
+      <!--color picker-->
+      <label for="color">Pick a Color!</label>
+      <input type="color" name="color" value=""><br>
+      <!--textarea-->
+      <label for="message">Notes:</label><br>
+      <textarea name="message" rows="8" cols="80"></textarea><br>
+      <!--Submit-->
+      <input type="submit" name="" value="Submit">
+    </form>
+    <a href="index.html">Home</a>
+  </body>
+</html>
